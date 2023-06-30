@@ -5,11 +5,9 @@ class Solution(object):
         :type k: int
         :rtype: List[int]
         """
-
         # loop thorugh nums
         # using dic to store value and frequency
         # print out the k most freqent elements
-
         value_frequency = {}  # store number and occurrence
 
         # The indices in this array correspond to the occurrences,
