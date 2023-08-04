@@ -8,4 +8,5 @@ class Solution:
             if requiredSecondValue in basket:
                 return (basket[requiredSecondValue] + 1, index + 1)
             basket[value] = index
+
         # using dictionary instead of two pointer
